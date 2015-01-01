@@ -25,7 +25,7 @@ function roots_setup() {
 
   // Add post formats
   // http://codex.wordpress.org/Post_Formats
-  //add_theme_support('post-formats', array('aside', 'gallery', 'link', 'image', 'quote', 'video', 'audio'));
+  add_theme_support('post-formats', array('aside', 'gallery', 'link', 'image', 'quote', 'video', 'audio'));
 
   // Add HTML5 markup for captions
   // http://codex.wordpress.org/Function_Reference/add_theme_support#HTML5
@@ -59,13 +59,3 @@ function roots_widgets_init() {
   ));
 }
 add_action('widgets_init', 'roots_widgets_init');
-// Custom fields
-define( 'ACF_LITE' , false );
-include_once('plugins/advanced-custom-fields/acf.php' );
-//include_once('plugins/acf-options-page/acf-options-page.php');
-include_once('plugins/advanced-custom-fields/acf_cf7-v4.php');
-include_once('plugins/acf-location-field/location-v4.php');
-include_once('plugins/acf-paypal-field/paypal_item-v4.php');
-include_once('plugins/acf-wordpress-wysiwyg-field/wp_wysiwyg-v4.php');
-//include_once('plugins/acf-google-font-selector-field/acf-google_font_selector.php');
-include_once('plugins/advanced-custom-fields-font-awesome/acf-font-awesome.php');
