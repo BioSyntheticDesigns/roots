@@ -67,5 +67,5 @@ include_once('plugins/advanced-custom-fields/acf_cf7-v4.php');
 include_once('plugins/acf-location-field/location-v4.php');
 include_once('plugins/acf-paypal-field/paypal_item-v4.php');
 include_once('plugins/acf-wordpress-wysiwyg-field/wp_wysiwyg-v4.php');
-//include_once('plugins/acf-accordion/acf-accordion-v4.php');
+//include_once('plugins/acf-google-font-selector-field/acf-google_font_selector.php');
 include_once('plugins/advanced-custom-fields-font-awesome/acf-font-awesome.php');
